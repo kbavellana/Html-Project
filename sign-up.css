@@ -1,0 +1,247 @@
+/*
+*
+*   CSS Sign Up CSS
+*
+*
+*
+*
+*/
+
+
+#login{
+    padding-top: 100px;
+    
+}
+#login h1{
+	font-size:35px;
+	font-family: Catamaran;
+	text-transform: uppercase;
+	text-align:center;
+	padding: 20px 0;
+
+	
+}
+
+#regi_form{
+    border: 3px solid black;
+    padding: 3px 5px;
+    border-radius: 8px;
+	display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+hr
+{
+	background-color: #153B00;
+	height: 5px;
+	display: block;
+	margin: 0 auto;
+	max-width: 620px;
+	text-shadow: 3px 3px 10px black;
+}
+
+#regi_form div{
+	margin: 0px 0px;
+	box-sizing:border-box;
+}
+#regi_form input[type=text], #regi_form input[type=password], input[type=email] {
+		padding: 10px 12px;
+		box-sizing: border-box;
+		border: 1px solid black;
+		border-radius: 5px;
+		font-size: 18px;
+		font-family: catamaran;
+        float:left;
+        margin: 3px 3px;
+        background-color: whitesmoke;
+	
+}
+#regi_form input:focus {
+    border: 1px solid #339900;
+}
+
+#regi_form .name .names{
+    width:32.44%;	
+}
+
+#regi_form div .credss, .uname, .pword{
+	width:49%;
+}
+
+#regi_form div .address{
+    width:98%;
+	
+}
+
+.custId, .idno{
+    
+    font-size: 20px;
+    margin: 3px 3px;
+    padding: 10px 13px;
+    grid-column: 1 / 2;
+    float: left; 
+}
+
+
+#regi_form .name{
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    box-sizing:border-box;
+	
+}
+
+#regi_form .cred{
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+    box-sizing:border-box;
+}
+
+#regi_form .pass{
+    grid-column: 1 / 2;
+    grid-row: 4 / 4;
+    box-sizing:border-box;
+}
+
+#regi_form .addresss{
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+    box-sizing:border-box;
+}
+
+#regi_form .conss{
+    grid-column: 2 / 2;
+    grid-row: 3 / 3;
+    box-sizing:border-box;
+}
+
+#regi_form div .cons{
+    width:48%;	
+}
+#blocks{
+	display:block;
+    font-size: 20px;
+    grid-column: 2 / 2;
+    grid-row: 4 / 4;
+}
+.others{
+    grid-column: 2 / 2;
+    grid-row: 5 / 5;
+}
+
+
+#blocks .sex{
+	float:left;
+	width:97.5%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+    border: 1px solid black;
+		border-radius: 5px;
+	box-sizing:border-box;
+    display: inline;
+    text-align: center;
+     background-color: whitesmoke;	
+}
+.others .id{
+    float:left;
+	width:98%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+    border: 1px solid black;
+		border-radius: 5px;
+	box-sizing:border-box;
+    display: inline;
+     background-color: whitesmoke;
+}
+#regi_form .button{
+    grid-column: 1 / 2;
+    grid-row: 5 / 5;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+#regi_form .submitt{
+    display: block;
+    background-color: #4CAF50;
+    padding: 15px 30px;
+    text-align: center;
+	font-weight: bolde;
+    font-size: 18px;
+	font-family: catamaran;
+    margin: 4px 2px;
+    cursor: pointer;	
+	border-radius: 8px;
+	text-transform: uppercase;
+    float: none;
+    
+}
+
+
+
+@media only screen and (max-width: 1000px)
+{
+    
+    
+    #regi_form input[type=text], #regi_form input[type=password], input[type=email] {
+
+        width: 98%;
+    
+}
+    
+#regi_form{
+    border: 3px solid black;
+    padding: 3px 5px;
+    border-radius: 8px;
+	display:block;
+    width: 98%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#regi_form .name .names, #regi_form .cred .credss, .uname, .pword, .address{
+    width:98%;	
+}
+
+
+.custId, .idno{
+    
+    font-size: 20px;
+    margin: 3px 3px;
+    padding: 10px 13px;
+    grid-column: 1 / 2;
+    float: none; 
+}
+    
+    #regi_form .submitt{
+    float: none;
+        text-align: center;
+    width: 98%;
+    }
+    
+#blocks .sex{
+	float:left;
+	width:49%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+    border: 1px solid black;
+		border-radius: 5px;
+	box-sizing:border-box;
+    display: inline;
+    text-align: center;
+     background-color: whitesmoke;	
+}
+.others .id{
+    float:left;
+	width:49%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+    border: 1px solid black;
+		border-radius: 5px;
+	box-sizing:border-box;
+    display: inline;
+     background-color: whitesmoke;
+}
+}

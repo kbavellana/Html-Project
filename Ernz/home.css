@@ -1,0 +1,276 @@
+
+/* auto generated code */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section 
+{
+    display:block;
+}
+
+
+
+blockquote, q 
+{
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+    content:'';
+    content:none;
+}
+
+a 
+{
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins 
+{
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark 
+{
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del 
+{
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] 
+{
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table 
+{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr 
+{
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select 
+{
+    vertical-align:middle;
+}
+
+/*our code */
+*
+{
+  text-decoration: none;
+}
+
+body
+{
+  background-color: #D4FEBD;
+}
+
+hr
+{
+	/*color: #153B00;*/
+	background-color: #153B00;
+	height: 10px;
+	display: block;
+	margin-left: 350px;
+	max-width: 620px;
+	text-shadow: 3px 3px 10px black;
+}
+
+
+
+.Home-banner {
+
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('bg1.6.png');
+  background-position: center;
+  background-size: cover;
+  display: table;
+  padding-bottom: 0px;
+}
+
+.first-main {
+  display: table-cell;
+  vertical-align: middle;
+}
+.Home-banner .first-main img{
+	text-align: center;
+}
+.Home-banner h1 {
+  font-family: Catamaran;
+  font-size: 65px;
+  font-weight: 950;
+  line-height: 70px;
+  color: #074C00;
+  text-align: center;
+  text-shadow: 4px 4px 10px black;
+}
+
+.Home-banner h2 {
+  font-family: Mission Script;
+  font-size: 40px;
+  font-weight: 1px;
+  /*font-style: italic;*/
+  line-height: 40px;
+  color: #074C00;
+  text-align: center;
+  /*text-shadow: 2px 2px 8px #000;*/
+}
+
+/*.Home-banner-boxlink div{
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}*/
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 5px;
+
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: Catamaran;
+  font-size: 24px;
+  color: #fff;
+  line-height: 35px;
+}
+
+.slogan{
+		font-family: Catamaran;
+		color: #fff; 
+		font-size:24px;
+		position: right;
+		padding-right:15px;
+		line-height:35px;
+		text-align:left;
+		float: right;
+		
+		}	
+
+}
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px
+        margin: 0 auto;
+		text-align:center;
+    }
+	
+    .Home-banner {
+        height: 800px;
+    }
+	  
+	hr {
+		margin-left: 250px;
+	}	
+	  
+	  
+    
+
+    .Home-banner h1 {
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .index-links {
+        overflow: hidden;
+    }
+
+    .Home-banner-boxlink div {
+        margin: 10px 10px 0;
+        height: 100px;
+        background-color: #f2f2f2;
+        float: left;
+      }
+
+      .home-boxlink-square {
+        width: calc(20% - 1px) !important;
+
+      }
+      .index-boxlink-rectangle {
+        width: calc(50% - 20px) !important;
+      }
+
+      .Home-banner-boxlink div h3 {
+        line-height: 230px;
+      }
+	  footer ul {
+        padding-right: 30px;
+      }
+
+      footer ul li p {
+        font-family: Catamaran;
+        font-size: : 24;
+        color: #fff;
+        line-height: : 40px;
+        text-transform: uppercase;
+      }
+
+}
+

@@ -1,0 +1,111 @@
+/*
+*
+*   CSS Login CSS
+*
+*
+*
+*
+*/
+
+#login{
+}
+
+.login{
+    padding: 20px;
+}
+#login h1{
+	font-size:35px;
+	font-family: Catamaran;
+	text-transform: uppercase;
+	text-align:center;
+	padding: 20px 0;
+    display: inline;
+    background-image: url(id-card.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+	
+}
+
+#regi_form{
+    width: 30%;
+	border: 3px solid #339900;
+	border-radius: 10px 10px;
+	padding:15px;
+		
+}
+
+#regi_form div{
+	margin: 3px 0px;
+	box-sizing:border-box;
+}
+#regi_form input[type=text], #regi_form input[type=password], input[type=email] {
+		width:100%;
+		padding: 0px 5px;
+		box-sizing: border-box;
+		border: 1px solid black;
+		border-radius: 5px;
+		font-size: 18px;
+		font-family: catamaran;
+	
+}
+#regi_form input:focus {
+    border: 1px solid #339900;
+}
+
+#regi_form div .unames{
+	margin: 5px 5px;
+	padding: 10px 1px;
+	box-sizing:border-box;
+    background-image: url('backup.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+#regi_form div .pwds{;
+	margin: 5px 5px;
+	padding: 10px 1px;
+	box-sizing:border-box;
+    background-image: url('bulb.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding-left: 45px;
+}
+
+.btns{
+	background-color: #4CAF50;
+    padding: 15px 30px;
+    text-align: center;
+	font-weight: bold;
+	color: white;
+    font-size: 18px;
+	font-family: catamaran;
+    margin: 4px 2px;
+    cursor: pointer;	
+	border-radius: 8px;
+	text-transform: uppercase;
+}
+.btns:hover{
+    opacity: .8;
+}
+
+#regi_form div .pwd{
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    #login{
+        width: 100%;
+    }
+    #regi_form{
+        width: 100%;
+    }
+    #login h1{
+        font-size: 18px;
+    }
+    
+}

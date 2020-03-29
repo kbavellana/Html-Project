@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up | Ernz Transport Services </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="body.css">
+		<link rel="stylesheet" href="Header.css">
+        <link rel="stylesheet" href="Footer.css">
+		<link rel="stylesheet" href="sign-up.css">
+        
+        <script> 
+        
+            var check = function() {
+                  if (document.getElementsByClassName('pword').value ==
+                    document.getElementsByClassName('pword confirm').value) {
+                    document.getElementsByClassName('message').style.color = 'green';
+                    document.getElementsByClassName('message').innerHTML = 'matching';
+                  } else {
+                    document.getElementsByClassName('message').style.color = 'red';
+                    document.getElementsByClassName('message').innerHTML = 'not matching';
+                  }
+                }
+        
+        </script>>
+    </head>
+    
+    <body>
+        <div class="row">
+            <div class="col-12">
+        <div id="header">
+            <span> <a href="home.html" class="col-3 colb-12 colc-12 name">Ernz Transport</a>
+            </span>
+            <span class="col-6 cola-7 colb-6 colc-12 buttons">
+                <ul>
+				<li><a href="index.html" ><img src ="house.png">Home</a></li>
+				<li><a href="Cars.html"><img src="home-garage.png">Cars</a></li>
+                </ul>
+            </span>
+            <span class="col-3 cola-5 colb-6 colc-12 btnreg">
+                <ul>
+                <li><a href="log-in.html" ><img src="entry-door.png">Log In</a></li>
+                <li><a class="active" href="sign-up.html" ><img src="pencil.png">Sign Up</a></li>
+                </ul>
+            </span>
+        </div>
+            </div>
+        </div>
+        
+		<!--Your Content here-->	
+		<div id='login'>
+				<hr> <h1>Registration Form</h1> <hr>
+					<form id='regi_form' action='' method=''>
+						<div class='custId'>
+						<div style = "font-family:catamaran">
+                            <span class="idno"> Customer ID No.</span>
+							<input type='text' name='idno.' readonly> <br>
+						</div>
+                        </div>
+					
+						<div class='name'>
+							<div><input class='names' type='text'  name='Lname' placeholder='Last Name' required / > </div> 
+							<div><input class='names' type='text'  name='Fname' placeholder='First Name' required / > </div>
+							<div><input class='names' type='text'  name='Mname' placeholder='Middle Name' required / > </div>
+						</div>
+					
+						<div class='cred'>
+							<div><input class='credss' type='email' name='contact_email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$' placeholder='E-mail address' required / >	</div>
+							<div><input class='uname' type='text'  name='Uname' placeholder='Username'required / ></div>
+                        </div>
+                        <div class="pass">
+							<div><input class='pword' type='password'  name='password' placeholder='Password' onkeyup='check();' required / ></div>
+							<div><input class='pword confirm' type='password'  name='password' placeholder='Confirm password' onkeyup='check();' required / ></div> 
+						</div>
+			
+						<div class='addresss'>
+							<div class="add"><input class='address' type='text'  name='address' placeholder='Address' required /> </div>
+                            </div>
+                        <div class="conss">
+							<div><input class='cons' type='text' maxlength='11'  pattern="[0-9]{11}" name='contact' placeholder='Contact' required / ></div>
+                            
+							<div><input class='cons' type='text' maxlength='7'  pattern='[0-9]{7}' name='contact_landline' placeholder='Landline'  / ></div>
+						</div>
+		
+						<div id='blocks'>				
+								<div class='sex'>
+									<div style = "font-family:catamaran">
+									Sex:
+										<input type='radio' name='sex' value='male'> Male
+										<input type='radio' name='sex' value='female'> Female	
+									</div>
+								</div>
+                        </div>
+                        <div class="others">
+							
+								<div class='id'>
+									<div style = "font-family:catamaran">
+										ID Picture:
+										<td><input type='file' name='fileUpload' value='fileUpload' >
+					
+									</div>	
+								</div>	
+				        </div>
+                        
+                        <div class="button">
+                        <div class="submit">
+								<input type='submit' class="submitt" value='Register!'>
+                        </div>
+                        </div>
+					</form>
+				</div>
+                               
+							
+       
+			
+		  
+       
+	   <!--Your Content ends here-->
+        
+         <div class="row">
+           <div class="col-12">
+         <div id="footer">
+             <div class="col-9">
+             <span class="copyright">
+             &copy;2018. Ernz Transport Services
+             </span>
+               </div>
+                <div class="col-3">
+			    <span class='slogan'>
+					Contact: (+63)9879654324 <br> 	
+					E-mail:  customer@ernz.com
+				</span>
+             </div>
+         </div>
+        </div>
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,134 @@
+/*
+*       *This CSS is for header of the whole site*
+*
+*	p.s. dito ko na nilagay lahat ng css na may kinalaman sa header ng website para madali hanapin at hindi nakahalo sa 
+*   content ng home website
+*
+*/
+
+/* lahat ng wala sa media style sa desktop */
+
+#header .name{
+    margin: 15px 0 ;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 900;
+    color: #0F310B;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    
+}
+#header .buttons{
+    margin: 10px 0 ;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 20px 0 40px;
+    float: left;
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 500;
+    color: #0F310B;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+
+}
+#header .buttons li{
+    display: inline;
+    float: left;
+}
+#header .buttons a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    
+}
+#header .btnreg{
+    float: right;
+    margin: 10px 0 ;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 20px 0 40px;
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 500;
+    color: #0F310B;
+    display: inline;
+    text-decoration: none;
+    text-align: right;
+
+}
+#header .btnreg li{
+    display: inline;
+    float: left;
+}
+#header .btnreg a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    
+}
+
+#header .buttons a:link, #header .buttons a:visited {
+    border-color: #00d700;
+    color: black;
+}
+
+#header .buttons a:hover, #header .buttons a:active {
+    border-bottom-width: 3px;
+    border-style: solid;
+    border-color:#008700;
+    color: black;
+}
+
+#header .btnreg a:link, #header .btnreg a:visited {
+    border-color: #00d700;
+    color: black;
+}
+
+#header .btnreg a:hover, #header .btnreg a:active {
+    border-bottom-width: 3px;
+    border-style: solid;
+    border-color:#008700;
+    color: black;
+}
+
+#header .buttons .active, #header .btnreg .active{
+    border-bottom-width: 3px;
+    border-style: solid;
+    border-color:#008700;
+    color: green;
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+    #header{
+       align-items: center; 
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    #header .name, #header .btnreg ul, #header .buttons ul{
+        
+        border: 0px;
+        float: none;
+        display: block;
+        text-align: center;
+        align-content: center;
+        align-items: baseline;
+        width: 100%;
+    }
+    
+}
+
+

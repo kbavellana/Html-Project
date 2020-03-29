@@ -1,0 +1,55 @@
+/*
+*
+*   *THIS CSS IS FOR THE FOOTER OF THE WHOLE WEBSITE ONLY.*
+*   WALANG KAHALONG IBA.
+*
+*
+*
+*
+*/
+
+#footer {
+        margin-top: 10px;
+        background-color: black;
+        padding: 60px;
+        width:100%;
+        display: block;
+        bottom: 0;
+        height: auto;
+        padding-top: 10px;
+      }
+
+.copyright{
+        font-family: Catamaran;
+		color: #fff; 
+		font-size:16px;
+		position: right;
+		padding-right:15px;
+		line-height:0;
+		text-align:left;
+}
+
+#footer .slogan {        
+        font-family: Catamaran;
+		color: #fff; 
+		font-size:24px;
+		padding:0 15px;
+		line-height:0;
+		text-align:right;
+      }
+
+@media only screen and (max-width: 1000px)
+{
+    #footer{
+        text-align: center;
+        overflow: visible;
+       padding-bottom: 100px;
+    }
+    #footer .slogan {
+        font-size: 18px;
+        float: none;
+        text-align: center;
+        
+    }
+    
+}

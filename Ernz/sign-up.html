@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Ernz Transport Services </title>
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="sign-up.css">
+		
+	</head>
+		<body>
+			<div>
+				<header>
+				<a href="home.html" class="header-brand">Ernz Transport</a>
+				
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+					</ul>
+				</nav>  
+
+				<nav>
+					<ul>
+						<li><a href="Cars.html">Cars</a></li>
+					</ul>
+				</nav>
+					<a href="log-in.html" class="login-rgstr">Log In</a>
+					<a href="sign-up.html" class="login-rgstr">Sign Up</a>
+				</header>
+			</div>
+			
+			<div id='login'>
+				<hr> <h1>Registration Form</h1> <hr>
+					<form id='regi_form' action='' method=''>
+						<div class='custId'>
+						<div style = "font-family:catamaran">
+						Customer ID No.
+							<input type='text' name='idno.' readonly> <br>
+						</div>
+					
+						<div class='name'>
+							<div><input class='names' type='text'  name='Lname' placeholder='Last Name' / > </div> 
+							<div><input class='names' type='text'  name='Fname' placeholder='First Name' / > </div>
+							<div><input class='names' type='text'  name='Mname' placeholder='Middle Name' / > </div>
+						</div>
+					
+						<div class='cred'>
+							<div><input class='credss' type='email' 'name='contact_email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$' placeholder='E-mail address'/ >	</div>
+							<div><input class='uname' type='text'  name='Uname' placeholder='Username'/ ></div>
+							<div><input class='pword' type='password'  name='password' placeholder='Password'/ ></div>
+							<div><input class='pwordconfirm' type='password'  name='password' placeholder='Confirm password'/ ></div> 
+						</div>
+			
+						<div class='addresss'>
+							<div><input class='address' type='text'  name='address' placeholder='Address'/> </div>
+							<div><input class='cons' type='text' maxlength='11'  pattern='[0-9]'name='contact' placeholder='Contact'/ ></div>
+							<div><input class='cons' type='text' maxlength='7'  pattern='[0-9]'name='contact_landline' placeholder='Landline'/ ></div>
+						</div>
+		
+						<div id='blocks'>
+							<div class='others'>
+					
+						
+								<div class='sex'>
+									<div style = "font-family:catamaran">
+									Sex:
+										<input type='radio' name='sex' value='male'> Male
+										<input type='radio' name='sex' value='female'> Female	
+									</div>
+								</div>
+							
+								<div class='id'>
+									<div style = "font-family:catamaran">
+										ID Picture:
+										<td><input type='file' name='fileUpload' value='fileUpload' >
+					
+									</div>	
+								</div>	
+			
+								<input type='submit' value='Register!'>
+							</div>
+						</div>
+					</form>
+				</div>
+							
+       
+			<div class="wrapper">
+				<footer>
+					<ul class="links-main">
+						<li><a href="home.html">Home</a></li>
+					</ul>
+					<span class='slogan'>
+						Contact: (+63)9879654324<br>		
+						E-mail:  customer@ernz.com
+					</span>
+			</div>		
+		</body>
+</html>

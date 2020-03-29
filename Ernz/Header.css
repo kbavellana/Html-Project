@@ -1,0 +1,134 @@
+/*
+
+	*This CSS is for header of the whole site*
+	
+	p.s. dito ko na nilagay lahat ng css na may kinalaman sa header ng website para madali hanapin at hindi nakahalo sa content ng home website
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section 
+{
+    display:block;
+}
+
+header
+{
+  background-color: #fff
+  width: 100%;
+  height: 70px;
+}
+nav ul 
+{
+    list-style:none;
+}
+
+header .header-brand
+{
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 900;
+  color: #0F310B;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+  padding: 20px 0;
+}
+
+header .login-rgstr
+{
+	font-family: Catamaran;
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+    line-height: 40px;
+	
+	/*border-left: 2px solid #111;*/
+}
+header nav ul {
+	  display: block;
+	  margin: 0 auto;
+	  width: fit-content;
+	}
+
+	header nav ul li {
+	  display: inline-block;
+	  float: left;
+	  list-style: none;
+	  padding: 0 16px;
+	}
+
+	header nav ul li a {
+	  font-family: Catamaran;
+	  font-size: 30px;
+	  color: #111;
+	  text-transform: uppercase;
+
+	}
+
+	header .header-Rent {
+	  display: none;
+	}	  
+
+@media only screen and (min-width: 1000px)
+{
+	header .header-brand{
+		margin: 15px 0 ;
+        text-align: left;
+        line-height: 40px;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+	  
+	header .login-rgstr
+	{
+		margin: 15px 0 ;
+		text-align: right;
+		line-height: 40px;
+		color: black;
+		padding: 0px 40px 0px 2px;
+		float: right;
+		/*border-left: 2px solid #111;*/
+	}
+	  
+    header nav ul {
+		margin: 20px 0px 0px 20px;
+        float: left;
+		padding-top: 10px;
+    }
+
+    header nav ul li a {
+        line-height: 50px;
+    }
+	
+	
+		
+}
+
+
+

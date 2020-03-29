@@ -1,0 +1,341 @@
+
+/* auto generated code */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section 
+{
+    display:block;
+}
+
+nav ul 
+{
+    list-style:none;
+}
+
+table 
+{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+input, select 
+{
+    vertical-align:middle;
+}
+
+*
+{
+  text-decoration: none;
+}
+
+body
+{
+  background-color: #e8ffdc;
+}
+
+header
+{
+  background-color: #D4FEBD;
+  width: 100%;
+  height: 70px;
+}
+
+header .header-brand
+{
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 900;
+  color: #0F310B;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+  padding: 20px 0;
+}  
+header .login-rgstr
+{
+	font-family: Catamaran;
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+    line-height: 40px;
+	
+	/*border-left: 2px solid #111;*/
+}	  
+
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px
+        margin: 0 auto;
+		text-align:center;
+    }
+	
+    .Home-banner {
+        height: 800px;
+    }
+	  
+	hr {
+		margin-left: 250px;
+	}	
+	  
+	  
+    header .header-brand{
+		margin: 15px 0 ;
+        text-align: left;
+        line-height: 40px;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+	  
+    header nav ul {
+		margin: 20px 0px 0px 20px;
+        float: left;
+		padding-top: 10px;
+    }
+
+    header nav ul li a {
+        line-height: 50px;
+    }
+
+    .Home-banner h1 {
+        display: block;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .index-links {
+        overflow: hidden;
+    }
+
+}
+
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul li a {
+  font-family: Catamaran;
+  font-size: 30px;
+  color: #111;
+  text-transform: uppercase;
+
+}
+
+.first-main {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#login h1{
+	font-size:35px;
+	font-family: Catamaran;
+	text-transform: uppercase;
+	text-align:center;
+	padding: 20px 0;
+	
+}
+
+#regi_form{
+	
+
+}
+
+hr
+{
+	background-color: #153B00;
+	height: 5px;
+	display: block;
+	margin-left: 350px;
+	max-width: 620px;
+	text-shadow: 3px 3px 10px black;
+}
+
+#regi_form div{
+	margin: 0px 0px;
+	box-sizing:border-box;
+}
+#regi_form input[type=text], #regi_form input[type=password], input[type=email] {
+		/*width:100%;*/
+		padding: 10px 12px;
+		box-sizing: border-box;
+		border: 1px solid black;
+		border-radius: 5px;
+		font-size: 18px;
+		font-family: catamaran;
+	
+}
+#regi_form input:focus {
+    border: 1px solid #339900;
+}
+
+#regi_form div .names{
+	float:left;
+	width:32%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+	
+}
+
+#regi_form div .uname {
+	float:left;
+	width:48.45%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+}
+
+#regi_form div .pword {
+	float:left;
+	width:48%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+}
+
+#regi_form div .pwordconfirm {
+	float:left;
+	width:48.45%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+}
+
+
+#regi_form div .credss{
+	float:left;
+	width:48%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+	
+}
+
+#regi_form div .address{
+	float:left;
+	width:48%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+	
+}
+#regi_form div .cons{
+	float:left;
+	width:24%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+	
+}
+#blocks{
+	display:block;
+}
+
+#regi_form div .others{
+	float:left;
+	width:24%;
+	margin: 3px 3px;
+	padding: 10px 13px;
+	box-sizing:border-box;
+	
+}
+
+
+@media screen and (max-width: 1000px){
+	#regi_form{
+		display:block;
+	}
+	
+}
+
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 5px;
+
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: Catamaran;
+  font-size: 24px;
+  color: #fff;
+  line-height: 35px;
+}
+
+.slogan{
+		font-family: Catamaran;
+		color: #fff; 
+		font-size:24px;
+		position: right;
+		padding-right:15px;
+		line-height:35px;
+		text-align:left;
+		float: right;
+		}	
+
+
+@media only screen and (min-width: 1000px) {
+      footer ul {
+        padding-right: 30px;
+      }
+
+      footer ul li p {
+        font-family: Catamaran;
+        font-size: : 24;
+        color: #fff;
+        line-height: : 40px;
+        text-transform: uppercase;
+      }
+
+}
